@@ -1,39 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Twitter</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-  <body>
-    <header id="main-header">
-      <div class="content">
-        <nav>
-          <ul>
-            <li><img src="/images/home.svg" alt="Home" />Home</li>
-            <li>
-              <img
-                src="/images/notification.svg"
-                alt="Notifications"
-              />Notifications
-            </li>
-            <li><img src="/images/message.svg" alt="Home" />Messages</li>
-          </ul>
-        </nav>
-        <img src="/images/logo.svg" alt="Logo Twitter" />
-        <div class="side">
-          <input type="text" placeholder="Search on Twitter" />
-          <img src="/images/avatar.png" alt="Avatar" />
-          <button>Tweet</button>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Twitter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header id="main-header">
+    <div class="content">
+      <nav>
+        <ul>
+          <li><img src="/images/home.svg" alt="Home" />Home</li>
+          <li>
+            <img src="/images/notification.svg" alt="Notifications" />Notifications
+          </li>
+          <li><img src="/images/message.svg" alt="Home" />Messages</li>
+        </ul>
+      </nav>
+      <img src="/images/logo.svg" alt="Logo Twitter" />
+      <div class="side">
+        <input type="text" placeholder="Search on Twitter" />
+        <img src="/images/avatar.png" alt="Avatar" />
+        <button>Tweet</button>
       </div>
-    </header>
-
-    <div class="banner">
-      <h1>Twitter da RockeSeat</h1>
     </div>
-  </body>
+  </header>
+
+  <div class="banner">
+    <h1>Twitter da RocketSeat</h1>
+  </div>
+
+
+  <div class="wrapper-content content">
+
+    <aside class="profile">
+      <img class="avatar" src="/images/avatar.png" alt="Tiago Santos">
+      <h1>Tiago Santos</h1>
+      <span>@Tiago</span>
+      <p>Bio topzera meu</p>
+      <ul class="list">
+        <li> <img src="/images/place.svg" alt="Place" /> Namur, Bélgica </li>
+        <li> <img src="/images/url.svg" alt="URL" /> https://tiagobehenck.github.io/ </li>
+        <li> <img src="/images/joined.svg" alt="Entrou" />Entrou em Junho de 2015</li>
+        <li> <img src="/images/born.svg" alt="Nascimento" />Born the 20th of June 1990</li>
+      </ul>
+
+      <div class="widget followers">
+        <strong><img src="/images/followers.svg" alt="Followers" /> 73 Followers that you know</strong>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+
+      <div class="widget images">
+        <strong><img src="/images/images.svg" alt="Images" /> 266 Photos and videos</strong>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+
+    </aside>
+
+    <section class="timeline"></section>
+    <aside class="widgets"></aside>
+  </div>
+
+</body>
+
 </html>
